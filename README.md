@@ -1,3 +1,3 @@
 # delve-framework-web-test
 
-View examples at https://interrupt.github.io/delve-framework-web-test/index.html
+View examples at https://interrupt.github.io/delve-framework-web-examples/index.html
