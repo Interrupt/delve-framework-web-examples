@@ -16,7 +16,7 @@ var Module = typeof Module != 'undefined' ? Module : {};
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /var/folders/rr/gctvjtw55yqbvvxq6gjk3bvm0000gn/T/tmpe1c_fbp_.js
+// include: /var/folders/rr/gctvjtw55yqbvvxq6gjk3bvm0000gn/T/tmpzds07rhv.js
 
   if (!Module.expectedDataFileDownloads) {
     Module.expectedDataFileDownloads = 0;
@@ -200,7 +200,7 @@ Module['FS_createPath']("/assets", "textures", true, true);
 
   })();
 
-// end include: /var/folders/rr/gctvjtw55yqbvvxq6gjk3bvm0000gn/T/tmpe1c_fbp_.js
+// end include: /var/folders/rr/gctvjtw55yqbvvxq6gjk3bvm0000gn/T/tmpzds07rhv.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -3933,7 +3933,7 @@ function sapp_js_set_favicon(w,h,pixels) { const canvas = document.createElement
       checkStackCookie();
       if (e instanceof WebAssembly.RuntimeError) {
         if (_emscripten_stack_get_current() <= 0) {
-          err('Stack overflow detected.  You can try increasing -sSTACK_SIZE (currently set to 65536)');
+          err('Stack overflow detected.  You can try increasing -sSTACK_SIZE (currently set to 33554432)');
         }
       }
       quit_(1, e);
@@ -7313,8 +7313,8 @@ var _emscripten_stack_get_end = () => (_emscripten_stack_get_end = wasmExports['
 var __emscripten_stack_restore = (a0) => (__emscripten_stack_restore = wasmExports['_emscripten_stack_restore'])(a0);
 var __emscripten_stack_alloc = (a0) => (__emscripten_stack_alloc = wasmExports['_emscripten_stack_alloc'])(a0);
 var _emscripten_stack_get_current = () => (_emscripten_stack_get_current = wasmExports['emscripten_stack_get_current'])();
-var ___start_em_js = Module['___start_em_js'] = 102779;
-var ___stop_em_js = Module['___stop_em_js'] = 108549;
+var ___start_em_js = Module['___start_em_js'] = 102577;
+var ___stop_em_js = Module['___stop_em_js'] = 108347;
 
 // include: postamble.js
 // === Auto-generated postamble setup entry stuff ===
